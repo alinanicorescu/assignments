@@ -3,10 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BFACFEA7FAA7C5D9ADB9A7F /* Pods_tv_shows.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F1D21FF27E5751F7AE73D5C /* Pods_tv_shows.framework */; };
+		906E76430B368838FD340BF2 /* Pods_tv_shows_tv_showsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC05EC0625D6512E1A6BF538 /* Pods_tv_shows_tv_showsUITests.framework */; };
+		EB88E7D82986D3037BBE2614 /* Pods_tv_showsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926FDDA6135893DC35CA6132 /* Pods_tv_showsTests.framework */; };
+		F256F24424A29BC900F3DD29 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F256F24224A29BC900F3DD29 /* TextCell.swift */; };
+		F256F24524A29BC900F3DD29 /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F256F24324A29BC900F3DD29 /* TextCell.xib */; };
+		F256F24724A29DE800F3DD29 /* ShowTitleSection.xib in Resources */ = {isa = PBXBuildFile; fileRef = F256F24624A29DE800F3DD29 /* ShowTitleSection.xib */; };
+		F256F24924A29E0B00F3DD29 /* ShowTitleSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F256F24824A29E0B00F3DD29 /* ShowTitleSection.swift */; };
+		F25B300E24A33E83005E41ED /* AddTvShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B300D24A33E83005E41ED /* AddTvShowViewController.swift */; };
+		F25B301124A3469E005E41ED /* AddEpisodeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B301024A3469E005E41ED /* AddEpisodeViewModel.swift */; };
+		F25B301424A35FEA005E41ED /* EpisodeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B301324A35FEA005E41ED /* EpisodeDetailsViewController.swift */; };
+		F25B301624A3611A005E41ED /* AddEpisode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B301524A3611A005E41ED /* AddEpisode.swift */; };
+		F25B301A24A36280005E41ED /* EpisodeDetailsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B301924A36280005E41ED /* EpisodeDetailsData.swift */; };
+		F25B301C24A3642C005E41ED /* EpisodeDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B301B24A3642C005E41ED /* EpisodeDetailsViewModel.swift */; };
 		F2871A4E24A10B92006882AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2871A4D24A10B92006882AD /* AppDelegate.swift */; };
 		F2871A5024A10B92006882AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2871A4F24A10B92006882AD /* SceneDelegate.swift */; };
 		F2871A5224A10B92006882AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2871A5124A10B92006882AD /* ViewController.swift */; };
@@ -15,6 +28,31 @@
 		F2871A5A24A10B93006882AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2871A5824A10B93006882AD /* LaunchScreen.storyboard */; };
 		F2871A6524A10B94006882AD /* tv_showsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2871A6424A10B94006882AD /* tv_showsTests.swift */; };
 		F2871A7024A10B94006882AD /* tv_showsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2871A6F24A10B94006882AD /* tv_showsUITests.swift */; };
+		F2871A7E24A111E9006882AD /* FloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2871A7D24A111E8006882AD /* FloatingLabelTextField.swift */; };
+		F2871A8224A1204D006882AD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2871A8124A1204D006882AD /* LoginViewController.swift */; };
+		F2A9A81B24A2AE1500728513 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A9A81A24A2AE1500728513 /* Episode.swift */; };
+		F2A9A82224A2B27C00728513 /* EpisodeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A9A82024A2B27C00728513 /* EpisodeCell.swift */; };
+		F2A9A82324A2B27C00728513 /* EpisodeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2A9A82124A2B27C00728513 /* EpisodeCell.xib */; };
+		F2EBA8F124A2137B0097B97B /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBA8F024A2137B0097B97B /* String+Extension.swift */; };
+		F2EBA8F324A214BA0097B97B /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBA8F224A214BA0097B97B /* Common.swift */; };
+		F2EBA8F524A21B810097B97B /* TvShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBA8F424A21B810097B97B /* TvShow.swift */; };
+		F2EBA8F724A21FA30097B97B /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBA8F624A21FA30097B97B /* LoginViewModel.swift */; };
+		F2EBA8FA24A230760097B97B /* TvShowsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBA8F924A230760097B97B /* TvShowsViewController.swift */; };
+		F2EBA8FC24A232FD0097B97B /* TvShowsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBA8FB24A232FD0097B97B /* TvShowsViewModel.swift */; };
+		F2EBA8FF24A2340E0097B97B /* TvShowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBA8FD24A2340E0097B97B /* TvShowCell.swift */; };
+		F2EBA90024A2340E0097B97B /* TvShowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2EBA8FE24A2340E0097B97B /* TvShowCell.xib */; };
+		F2EBA90224A24BBF0097B97B /* 1532353304050-oinb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F2EBA90124A24BBF0097B97B /* 1532353304050-oinb.jpg */; };
+		F2EBA90624A287860097B97B /* TvShowDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBA90524A287860097B97B /* TvShowDetailViewController.swift */; };
+		F2EBA90824A288AF0097B97B /* TvShowDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBA90724A288AF0097B97B /* TvShowDetailViewModel.swift */; };
+		F2EBA90A24A288F30097B97B /* TvShowDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EBA90924A288F30097B97B /* TvShowDetails.swift */; };
+		F2EC375424A2055C00003AAE /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EC375324A2055C00003AAE /* APIService.swift */; };
+		F2F871D124A66BDA007AABBD /* CommentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F871D024A66BDA007AABBD /* CommentsViewController.swift */; };
+		F2F871D624A66C1B007AABBD /* CommentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F871D424A66C1B007AABBD /* CommentsCell.swift */; };
+		F2F871D724A66C1B007AABBD /* CommentsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2F871D524A66C1B007AABBD /* CommentsCell.xib */; };
+		F2F871D924A66E47007AABBD /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F871D824A66E47007AABBD /* Comment.swift */; };
+		F2F871DB24A67DBB007AABBD /* TextFieldInset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F871DA24A67DBB007AABBD /* TextFieldInset.swift */; };
+		F2F871DD24A69B5E007AABBD /* CommentsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F871DC24A69B5E007AABBD /* CommentsViewModel.swift */; };
+		F2F871DF24A6A593007AABBD /* CommentsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F871DE24A6A593007AABBD /* CommentsStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +73,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16B7A5BC1161C214B3EE5E4E /* Pods-tv.shows.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv.shows.release.xcconfig"; path = "Target Support Files/Pods-tv.shows/Pods-tv.shows.release.xcconfig"; sourceTree = "<group>"; };
+		3828F1192DF3D8930F2682A4 /* Pods-tv.shows-tv.showsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv.shows-tv.showsUITests.debug.xcconfig"; path = "Target Support Files/Pods-tv.shows-tv.showsUITests/Pods-tv.shows-tv.showsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5F1D21FF27E5751F7AE73D5C /* Pods_tv_shows.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tv_shows.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D29AF71E835EE128DF57427 /* Pods-tv.shows.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv.shows.debug.xcconfig"; path = "Target Support Files/Pods-tv.shows/Pods-tv.shows.debug.xcconfig"; sourceTree = "<group>"; };
+		926FDDA6135893DC35CA6132 /* Pods_tv_showsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tv_showsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A819A9C1DF92E2A523B56BA /* Pods-tv.shows-tv.showsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv.shows-tv.showsUITests.release.xcconfig"; path = "Target Support Files/Pods-tv.shows-tv.showsUITests/Pods-tv.shows-tv.showsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A81D2D69A9E443BEA2F862CD /* Pods-tv.showsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv.showsTests.debug.xcconfig"; path = "Target Support Files/Pods-tv.showsTests/Pods-tv.showsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFF67F77A903465B7DF2B877 /* Pods-tv.showsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tv.showsTests.release.xcconfig"; path = "Target Support Files/Pods-tv.showsTests/Pods-tv.showsTests.release.xcconfig"; sourceTree = "<group>"; };
+		F256F24224A29BC900F3DD29 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		F256F24324A29BC900F3DD29 /* TextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
+		F256F24624A29DE800F3DD29 /* ShowTitleSection.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowTitleSection.xib; sourceTree = "<group>"; };
+		F256F24824A29E0B00F3DD29 /* ShowTitleSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowTitleSection.swift; sourceTree = "<group>"; };
+		F25B300D24A33E83005E41ED /* AddTvShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTvShowViewController.swift; sourceTree = "<group>"; };
+		F25B301024A3469E005E41ED /* AddEpisodeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEpisodeViewModel.swift; sourceTree = "<group>"; };
+		F25B301324A35FEA005E41ED /* EpisodeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailsViewController.swift; sourceTree = "<group>"; };
+		F25B301524A3611A005E41ED /* AddEpisode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEpisode.swift; sourceTree = "<group>"; };
+		F25B301924A36280005E41ED /* EpisodeDetailsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailsData.swift; sourceTree = "<group>"; };
+		F25B301B24A3642C005E41ED /* EpisodeDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeDetailsViewModel.swift; sourceTree = "<group>"; };
 		F2871A4A24A10B92006882AD /* tv.shows.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tv.shows.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2871A4D24A10B92006882AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2871A4F24A10B92006882AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +105,32 @@
 		F2871A6B24A10B94006882AD /* tv.showsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tv.showsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2871A6F24A10B94006882AD /* tv_showsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tv_showsUITests.swift; sourceTree = "<group>"; };
 		F2871A7124A10B94006882AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2871A7D24A111E8006882AD /* FloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingLabelTextField.swift; sourceTree = "<group>"; };
+		F2871A8124A1204D006882AD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F2A9A81A24A2AE1500728513 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		F2A9A82024A2B27C00728513 /* EpisodeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCell.swift; sourceTree = "<group>"; };
+		F2A9A82124A2B27C00728513 /* EpisodeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EpisodeCell.xib; sourceTree = "<group>"; };
+		F2EBA8F024A2137B0097B97B /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		F2EBA8F224A214BA0097B97B /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		F2EBA8F424A21B810097B97B /* TvShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShow.swift; sourceTree = "<group>"; };
+		F2EBA8F624A21FA30097B97B /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		F2EBA8F924A230760097B97B /* TvShowsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowsViewController.swift; sourceTree = "<group>"; };
+		F2EBA8FB24A232FD0097B97B /* TvShowsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowsViewModel.swift; sourceTree = "<group>"; };
+		F2EBA8FD24A2340E0097B97B /* TvShowCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowCell.swift; sourceTree = "<group>"; };
+		F2EBA8FE24A2340E0097B97B /* TvShowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TvShowCell.xib; sourceTree = "<group>"; };
+		F2EBA90124A24BBF0097B97B /* 1532353304050-oinb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1532353304050-oinb.jpg"; sourceTree = "<group>"; };
+		F2EBA90524A287860097B97B /* TvShowDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowDetailViewController.swift; sourceTree = "<group>"; };
+		F2EBA90724A288AF0097B97B /* TvShowDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowDetailViewModel.swift; sourceTree = "<group>"; };
+		F2EBA90924A288F30097B97B /* TvShowDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvShowDetails.swift; sourceTree = "<group>"; };
+		F2EC375324A2055C00003AAE /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		F2F871D024A66BDA007AABBD /* CommentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewController.swift; sourceTree = "<group>"; };
+		F2F871D424A66C1B007AABBD /* CommentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCell.swift; sourceTree = "<group>"; };
+		F2F871D524A66C1B007AABBD /* CommentsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsCell.xib; sourceTree = "<group>"; };
+		F2F871D824A66E47007AABBD /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		F2F871DA24A67DBB007AABBD /* TextFieldInset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldInset.swift; sourceTree = "<group>"; };
+		F2F871DC24A69B5E007AABBD /* CommentsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsViewModel.swift; sourceTree = "<group>"; };
+		F2F871DE24A6A593007AABBD /* CommentsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsStorage.swift; sourceTree = "<group>"; };
+		FC05EC0625D6512E1A6BF538 /* Pods_tv_shows_tv_showsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tv_shows_tv_showsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BFACFEA7FAA7C5D9ADB9A7F /* Pods_tv_shows.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +146,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB88E7D82986D3037BBE2614 /* Pods_tv_showsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +154,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				906E76430B368838FD340BF2 /* Pods_tv_shows_tv_showsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B3B0427C966428ADB5BBB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D29AF71E835EE128DF57427 /* Pods-tv.shows.debug.xcconfig */,
+				16B7A5BC1161C214B3EE5E4E /* Pods-tv.shows.release.xcconfig */,
+				3828F1192DF3D8930F2682A4 /* Pods-tv.shows-tv.showsUITests.debug.xcconfig */,
+				9A819A9C1DF92E2A523B56BA /* Pods-tv.shows-tv.showsUITests.release.xcconfig */,
+				A81D2D69A9E443BEA2F862CD /* Pods-tv.showsTests.debug.xcconfig */,
+				CFF67F77A903465B7DF2B877 /* Pods-tv.showsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		648F44522DDED13A58A2727B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F1D21FF27E5751F7AE73D5C /* Pods_tv_shows.framework */,
+				FC05EC0625D6512E1A6BF538 /* Pods_tv_shows_tv_showsUITests.framework */,
+				926FDDA6135893DC35CA6132 /* Pods_tv_showsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F25B300C24A33E6A005E41ED /* AddTvShow */ = {
+			isa = PBXGroup;
+			children = (
+				F25B300D24A33E83005E41ED /* AddTvShowViewController.swift */,
+				F25B301024A3469E005E41ED /* AddEpisodeViewModel.swift */,
+				F25B301524A3611A005E41ED /* AddEpisode.swift */,
+			);
+			path = AddTvShow;
+			sourceTree = "<group>";
+		};
+		F25B301224A35FD5005E41ED /* EpisodeDetails */ = {
+			isa = PBXGroup;
+			children = (
+				F25B301324A35FEA005E41ED /* EpisodeDetailsViewController.swift */,
+				F25B301924A36280005E41ED /* EpisodeDetailsData.swift */,
+				F25B301B24A3642C005E41ED /* EpisodeDetailsViewModel.swift */,
+			);
+			path = EpisodeDetails;
+			sourceTree = "<group>";
+		};
 		F2871A4124A10B92006882AD = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +211,8 @@
 				F2871A6324A10B94006882AD /* tv.showsTests */,
 				F2871A6E24A10B94006882AD /* tv.showsUITests */,
 				F2871A4B24A10B92006882AD /* Products */,
+				24B3B0427C966428ADB5BBB1 /* Pods */,
+				648F44522DDED13A58A2727B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +229,22 @@
 		F2871A4C24A10B92006882AD /* tv.shows */ = {
 			isa = PBXGroup;
 			children = (
+				F2871A8024A11F78006882AD /* Login */,
+				F2F871CF24A66BC6007AABBD /* Comments */,
+				F25B301224A35FD5005E41ED /* EpisodeDetails */,
+				F25B300C24A33E6A005E41ED /* AddTvShow */,
+				F2EBA90424A2876E0097B97B /* TvShowDetail */,
+				F2EBA8F824A2305B0097B97B /* TvShows */,
+				F2EBA8F224A214BA0097B97B /* Common.swift */,
+				F2EBA8EF24A213660097B97B /* Extensions */,
+				F2EC375124A2052E00003AAE /* Service */,
+				F2871A7F24A11F55006882AD /* Components */,
 				F2871A4D24A10B92006882AD /* AppDelegate.swift */,
 				F2871A4F24A10B92006882AD /* SceneDelegate.swift */,
 				F2871A5124A10B92006882AD /* ViewController.swift */,
 				F2871A5324A10B92006882AD /* Main.storyboard */,
 				F2871A5624A10B93006882AD /* Assets.xcassets */,
+				F2EBA90124A24BBF0097B97B /* 1532353304050-oinb.jpg */,
 				F2871A5824A10B93006882AD /* LaunchScreen.storyboard */,
 				F2871A5B24A10B93006882AD /* Info.plist */,
 			);
@@ -128,6 +269,82 @@
 			path = tv.showsUITests;
 			sourceTree = "<group>";
 		};
+		F2871A7F24A11F55006882AD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F2871A7D24A111E8006882AD /* FloatingLabelTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		F2871A8024A11F78006882AD /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F2871A8124A1204D006882AD /* LoginViewController.swift */,
+				F2EBA8F624A21FA30097B97B /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F2EBA8EF24A213660097B97B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F2EBA8F024A2137B0097B97B /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F2EBA8F824A2305B0097B97B /* TvShows */ = {
+			isa = PBXGroup;
+			children = (
+				F2EBA8F924A230760097B97B /* TvShowsViewController.swift */,
+				F2EBA8FB24A232FD0097B97B /* TvShowsViewModel.swift */,
+				F2EBA8F424A21B810097B97B /* TvShow.swift */,
+				F2EBA8FD24A2340E0097B97B /* TvShowCell.swift */,
+				F2EBA8FE24A2340E0097B97B /* TvShowCell.xib */,
+			);
+			path = TvShows;
+			sourceTree = "<group>";
+		};
+		F2EBA90424A2876E0097B97B /* TvShowDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F2EBA90524A287860097B97B /* TvShowDetailViewController.swift */,
+				F2EBA90724A288AF0097B97B /* TvShowDetailViewModel.swift */,
+				F2EBA90924A288F30097B97B /* TvShowDetails.swift */,
+				F256F24224A29BC900F3DD29 /* TextCell.swift */,
+				F256F24324A29BC900F3DD29 /* TextCell.xib */,
+				F256F24624A29DE800F3DD29 /* ShowTitleSection.xib */,
+				F256F24824A29E0B00F3DD29 /* ShowTitleSection.swift */,
+				F2A9A81A24A2AE1500728513 /* Episode.swift */,
+				F2A9A82024A2B27C00728513 /* EpisodeCell.swift */,
+				F2A9A82124A2B27C00728513 /* EpisodeCell.xib */,
+			);
+			path = TvShowDetail;
+			sourceTree = "<group>";
+		};
+		F2EC375124A2052E00003AAE /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F2EC375324A2055C00003AAE /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F2F871CF24A66BC6007AABBD /* Comments */ = {
+			isa = PBXGroup;
+			children = (
+				F2F871D024A66BDA007AABBD /* CommentsViewController.swift */,
+				F2F871D424A66C1B007AABBD /* CommentsCell.swift */,
+				F2F871D524A66C1B007AABBD /* CommentsCell.xib */,
+				F2F871D824A66E47007AABBD /* Comment.swift */,
+				F2F871DA24A67DBB007AABBD /* TextFieldInset.swift */,
+				F2F871DC24A69B5E007AABBD /* CommentsViewModel.swift */,
+				F2F871DE24A6A593007AABBD /* CommentsStorage.swift */,
+			);
+			path = Comments;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2871A7424A10B94006882AD /* Build configuration list for PBXNativeTarget "tv.shows" */;
 			buildPhases = (
+				4FD198D5454099CE21C24FBA /* [CP] Check Pods Manifest.lock */,
 				F2871A4624A10B92006882AD /* Sources */,
 				F2871A4724A10B92006882AD /* Frameworks */,
 				F2871A4824A10B92006882AD /* Resources */,
+				48C9A99347D0A997E256362C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +371,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2871A7724A10B94006882AD /* Build configuration list for PBXNativeTarget "tv.showsTests" */;
 			buildPhases = (
+				08AC5A25EAD0555A69E7EC3B /* [CP] Check Pods Manifest.lock */,
 				F2871A5C24A10B94006882AD /* Sources */,
 				F2871A5D24A10B94006882AD /* Frameworks */,
 				F2871A5E24A10B94006882AD /* Resources */,
@@ -170,9 +390,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2871A7A24A10B94006882AD /* Build configuration list for PBXNativeTarget "tv.showsUITests" */;
 			buildPhases = (
+				D104242BE25CF39A4F787D02 /* [CP] Check Pods Manifest.lock */,
 				F2871A6724A10B94006882AD /* Sources */,
 				F2871A6824A10B94006882AD /* Frameworks */,
 				F2871A6924A10B94006882AD /* Resources */,
+				AED0151F9259B7E4D4667427 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,8 +454,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F256F24724A29DE800F3DD29 /* ShowTitleSection.xib in Resources */,
+				F2A9A82324A2B27C00728513 /* EpisodeCell.xib in Resources */,
+				F256F24524A29BC900F3DD29 /* TextCell.xib in Resources */,
+				F2F871D724A66C1B007AABBD /* CommentsCell.xib in Resources */,
 				F2871A5A24A10B93006882AD /* LaunchScreen.storyboard in Resources */,
+				F2EBA90224A24BBF0097B97B /* 1532353304050-oinb.jpg in Resources */,
 				F2871A5724A10B93006882AD /* Assets.xcassets in Resources */,
+				F2EBA90024A2340E0097B97B /* TvShowCell.xib in Resources */,
 				F2871A5524A10B92006882AD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +482,146 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08AC5A25EAD0555A69E7EC3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tv.showsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48C9A99347D0A997E256362C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tv.shows/Pods-tv.shows-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tv.shows/Pods-tv.shows-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tv.shows/Pods-tv.shows-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FD198D5454099CE21C24FBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tv.shows-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AED0151F9259B7E4D4667427 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tv.shows-tv.showsUITests/Pods-tv.shows-tv.showsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tv.shows-tv.showsUITests/Pods-tv.shows-tv.showsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tv.shows-tv.showsUITests/Pods-tv.shows-tv.showsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D104242BE25CF39A4F787D02 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tv.shows-tv.showsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2871A4624A10B92006882AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2EBA8F324A214BA0097B97B /* Common.swift in Sources */,
+				F2A9A81B24A2AE1500728513 /* Episode.swift in Sources */,
+				F25B301424A35FEA005E41ED /* EpisodeDetailsViewController.swift in Sources */,
+				F2F871DD24A69B5E007AABBD /* CommentsViewModel.swift in Sources */,
+				F25B301A24A36280005E41ED /* EpisodeDetailsData.swift in Sources */,
+				F2EBA8FF24A2340E0097B97B /* TvShowCell.swift in Sources */,
+				F256F24424A29BC900F3DD29 /* TextCell.swift in Sources */,
+				F25B301624A3611A005E41ED /* AddEpisode.swift in Sources */,
+				F25B301C24A3642C005E41ED /* EpisodeDetailsViewModel.swift in Sources */,
 				F2871A5224A10B92006882AD /* ViewController.swift in Sources */,
+				F2A9A82224A2B27C00728513 /* EpisodeCell.swift in Sources */,
+				F2F871DF24A6A593007AABBD /* CommentsStorage.swift in Sources */,
+				F2EBA90824A288AF0097B97B /* TvShowDetailViewModel.swift in Sources */,
+				F2F871D924A66E47007AABBD /* Comment.swift in Sources */,
+				F25B301124A3469E005E41ED /* AddEpisodeViewModel.swift in Sources */,
+				F2EBA8F124A2137B0097B97B /* String+Extension.swift in Sources */,
+				F2EBA90624A287860097B97B /* TvShowDetailViewController.swift in Sources */,
+				F2EBA8F524A21B810097B97B /* TvShow.swift in Sources */,
 				F2871A4E24A10B92006882AD /* AppDelegate.swift in Sources */,
+				F256F24924A29E0B00F3DD29 /* ShowTitleSection.swift in Sources */,
+				F2F871D124A66BDA007AABBD /* CommentsViewController.swift in Sources */,
+				F2871A7E24A111E9006882AD /* FloatingLabelTextField.swift in Sources */,
+				F2871A8224A1204D006882AD /* LoginViewController.swift in Sources */,
+				F2F871DB24A67DBB007AABBD /* TextFieldInset.swift in Sources */,
+				F2EBA8FC24A232FD0097B97B /* TvShowsViewModel.swift in Sources */,
+				F2EBA90A24A288F30097B97B /* TvShowDetails.swift in Sources */,
+				F2EBA8FA24A230760097B97B /* TvShowsViewController.swift in Sources */,
+				F2EC375424A2055C00003AAE /* APIService.swift in Sources */,
+				F25B300E24A33E83005E41ED /* AddTvShowViewController.swift in Sources */,
+				F2EBA8F724A21FA30097B97B /* LoginViewModel.swift in Sources */,
 				F2871A5024A10B92006882AD /* SceneDelegate.swift in Sources */,
+				F2F871D624A66C1B007AABBD /* CommentsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +792,7 @@
 		};
 		F2871A7524A10B94006882AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D29AF71E835EE128DF57427 /* Pods-tv.shows.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +810,7 @@
 		};
 		F2871A7624A10B94006882AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B7A5BC1161C214B3EE5E4E /* Pods-tv.shows.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +828,7 @@
 		};
 		F2871A7824A10B94006882AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81D2D69A9E443BEA2F862CD /* Pods-tv.showsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +850,7 @@
 		};
 		F2871A7924A10B94006882AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF67F77A903465B7DF2B877 /* Pods-tv.showsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +872,7 @@
 		};
 		F2871A7B24A10B94006882AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3828F1192DF3D8930F2682A4 /* Pods-tv.shows-tv.showsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +892,7 @@
 		};
 		F2871A7C24A10B94006882AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A819A9C1DF92E2A523B56BA /* Pods-tv.shows-tv.showsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
